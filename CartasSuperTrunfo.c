@@ -14,7 +14,7 @@ int main() {
     scanf(" %c", &estado1);
     printf("Digite o codigo da carta (ex: A01, A04):\n");
     scanf(" %3s", codigoDaCarta1);
-    getchar(); // Limpa o buffer antes de ler a string
+    getchar();
     printf("Digite o nome da cidade:\n");
     scanf(" %[^\n]", nomeDaCidade1);
     printf("Qual o numero de habitantes da cidade?\n");
